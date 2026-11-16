@@ -1,0 +1,922 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "answerable": true,
+    "question": "What kind of business was Mr. Dursley the director of?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Mr. Dursley director business",
+        "filter": null,
+        "results": [
+          {
+            "id": "hp-book1-ch1-4:para:p16:c003",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 16,
+            "text": "“Funny stuff on the news,” Mr. Dursley mumbled. “Owls . . . shooting stars . . . and there were a lot of funny-looking people in town today . . .”\n\n“So?” snapped Mrs. Dursley.\n\n“Well, I just thought . . . maybe . . . it was something to do with . . . you know . . . her crowd.”\n\nMrs. Dursley sipped her tea through pursed lips. Mr. Dursley wondered whether he dared tell her he’d heard the name “Potter.” He decided he didn’t",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 1,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 3,
+              "chapter_title": "Chapter 1: The Boy Who Lived"
+            },
+            "score": 0.17781228271432048,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p15:c003",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 15,
+            "text": "“Shoo!” said Mr. Dursley loudly.\n\nThe cat didn’t move. It just gave him a stern look. Was this normal cat behavior? Mr. Dursley wondered. Trying to pull himself together, he let himself into the house. He was still determined not to mention anything to his wife.\n\nMrs. Dursley had had a nice, normal day. She told him over dinner all about Mrs. Next Door’s problems with her daughter and how Dudley had learned a new word (“Won’t!”). Mr. Dursley tried to act normally. When Dudley had been put to bed, he went into the living room in time to catch the",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 1,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 3,
+              "chapter_title": "Chapter 1: The Boy Who Lived"
+            },
+            "score": 0.17119670671338794,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p12:c001",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 12,
+            "text": "Mr. Dursley was the director of a firm called Grunnings, which made drills. He was a big, beefy man with hardly any neck, although he did have a very large mustache. Mrs. Dursley was thin and blonde and had nearly twice the usual amount of neck, which came in very useful as she spent so much of her time craning over garden fences, spying on the neighbors. The Dursleys had a small son called Dudley and in their opinion there was no finer boy anywhere.",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 1,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 1,
+              "chapter_title": "Chapter 1: The Boy Who Lived"
+            },
+            "score": 0.16891614324340196,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[hp-book1-ch1-4:para:p16:c003 | data/harrypotter.pdf | page 16]\n“Funny stuff on the news,” Mr. Dursley mumbled. “Owls . . . shooting stars . . . and there were a lot of funny-looking people in town today . . .”\n\n“So?” snapped Mrs. Dursley.\n\n“Well, I just thought . . . maybe . . . it was something to do with . . . you know . . . her crowd.”\n\nMrs. Dursley sipped her tea through pursed lips. Mr. Dursley wondered whether he dared tell her he’d heard the name “Potter.” He decided he didn’t",
+        "context_ids": [
+          "hp-book1-ch1-4:para:p16:c003"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Mr. Dursley business director",
+        "filter": null,
+        "results": [
+          {
+            "id": "hp-book1-ch1-4:para:p16:c003",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 16,
+            "text": "“Funny stuff on the news,” Mr. Dursley mumbled. “Owls . . . shooting stars . . . and there were a lot of funny-looking people in town today . . .”\n\n“So?” snapped Mrs. Dursley.\n\n“Well, I just thought . . . maybe . . . it was something to do with . . . you know . . . her crowd.”\n\nMrs. Dursley sipped her tea through pursed lips. Mr. Dursley wondered whether he dared tell her he’d heard the name “Potter.” He decided he didn’t",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 1,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 3,
+              "chapter_title": "Chapter 1: The Boy Who Lived"
+            },
+            "score": 0.17781228271432048,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p15:c003",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 15,
+            "text": "“Shoo!” said Mr. Dursley loudly.\n\nThe cat didn’t move. It just gave him a stern look. Was this normal cat behavior? Mr. Dursley wondered. Trying to pull himself together, he let himself into the house. He was still determined not to mention anything to his wife.\n\nMrs. Dursley had had a nice, normal day. She told him over dinner all about Mrs. Next Door’s problems with her daughter and how Dudley had learned a new word (“Won’t!”). Mr. Dursley tried to act normally. When Dudley had been put to bed, he went into the living room in time to catch the",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 1,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 3,
+              "chapter_title": "Chapter 1: The Boy Who Lived"
+            },
+            "score": 0.17119670671338794,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p12:c001",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 12,
+            "text": "Mr. Dursley was the director of a firm called Grunnings, which made drills. He was a big, beefy man with hardly any neck, although he did have a very large mustache. Mrs. Dursley was thin and blonde and had nearly twice the usual amount of neck, which came in very useful as she spent so much of her time craning over garden fences, spying on the neighbors. The Dursleys had a small son called Dudley and in their opinion there was no finer boy anywhere.",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 1,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 1,
+              "chapter_title": "Chapter 1: The Boy Who Lived"
+            },
+            "score": 0.16891614324340196,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[hp-book1-ch1-4:para:p16:c003 | data/harrypotter.pdf | page 16]\n“Funny stuff on the news,” Mr. Dursley mumbled. “Owls . . . shooting stars . . . and there were a lot of funny-looking people in town today . . .”\n\n“So?” snapped Mrs. Dursley.\n\n“Well, I just thought . . . maybe . . . it was something to do with . . . you know . . . her crowd.”\n\nMrs. Dursley sipped her tea through pursed lips. Mr. Dursley wondered whether he dared tell her he’d heard the name “Potter.” He decided he didn’t",
+        "context_ids": [
+          "hp-book1-ch1-4:para:p16:c003"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Mr. Dursley business type",
+        "filter": null,
+        "results": [
+          {
+            "id": "hp-book1-ch1-4:para:p16:c003",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 16,
+            "text": "“Funny stuff on the news,” Mr. Dursley mumbled. “Owls . . . shooting stars . . . and there were a lot of funny-looking people in town today . . .”\n\n“So?” snapped Mrs. Dursley.\n\n“Well, I just thought . . . maybe . . . it was something to do with . . . you know . . . her crowd.”\n\nMrs. Dursley sipped her tea through pursed lips. Mr. Dursley wondered whether he dared tell her he’d heard the name “Potter.” He decided he didn’t",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 1,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 3,
+              "chapter_title": "Chapter 1: The Boy Who Lived"
+            },
+            "score": 0.22669786356837887,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p15:c003",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 15,
+            "text": "“Shoo!” said Mr. Dursley loudly.\n\nThe cat didn’t move. It just gave him a stern look. Was this normal cat behavior? Mr. Dursley wondered. Trying to pull himself together, he let himself into the house. He was still determined not to mention anything to his wife.\n\nMrs. Dursley had had a nice, normal day. She told him over dinner all about Mrs. Next Door’s problems with her daughter and how Dudley had learned a new word (“Won’t!”). Mr. Dursley tried to act normally. When Dudley had been put to bed, he went into the living room in time to catch the",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 1,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 3,
+              "chapter_title": "Chapter 1: The Boy Who Lived"
+            },
+            "score": 0.21826348028061027,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p13:c001",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 13,
+            "text": "At half past eight, Mr. Dursley picked up his briefcase, pecked Mrs. Dursley on the cheek, and tried to kiss Dudley good-bye but missed, because Dudley was now having a tantrum and throwing his cereal at the walls. “Little tyke,” chortled Mr. Dursley as he left the house. He got into his car and backed out of number four’s drive.",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 1,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 1,
+              "chapter_title": "Chapter 1: The Boy Who Lived"
+            },
+            "score": 0.20979140522270182,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[hp-book1-ch1-4:para:p16:c003 | data/harrypotter.pdf | page 16]\n“Funny stuff on the news,” Mr. Dursley mumbled. “Owls . . . shooting stars . . . and there were a lot of funny-looking people in town today . . .”\n\n“So?” snapped Mrs. Dursley.\n\n“Well, I just thought . . . maybe . . . it was something to do with . . . you know . . . her crowd.”\n\nMrs. Dursley sipped her tea through pursed lips. Mr. Dursley wondered whether he dared tell her he’d heard the name “Potter.” He decided he didn’t",
+        "context_ids": [
+          "hp-book1-ch1-4:para:p16:c003"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 4703.95
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "answerable": true,
+    "question": "What three reasons made Dudley howl at nightfall during the drive to the gloomy hotel?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Dudley howl nightfall drive gloomy hotel reasons",
+        "filter": null,
+        "results": [
+          {
+            "id": "hp-book1-ch1-4:para:p46:c001",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 46,
+            "text": "Uncle Vernon stopped at last outside a gloomy-looking hotel on the outskirts of a big city. Dudley and Harry shared a room with twin beds and damp, musty sheets. Dudley snored but Harry stayed awake, sitting on the windowsill, staring down at the lights of passing cars and wondering. . . . They ate stale cornflakes and cold tinned tomatoes on toast for breakfast the next day. They had just finished when the owner of the hotel came over to their table.\n\n“’Scuse me, but is one of you Mr. H. Potter? Only I got about an ’undred of these at the front desk.”",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 3,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 1,
+              "chapter_title": "Chapter 3: The Letters from No One"
+            },
+            "score": 0.1794176680698581,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p46:c000",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 46,
+            "text": "They didn’t stop to eat or drink all day. By nightfall Dudley was howling. He’d never had such a bad day in his life. He was hungry, he’d missed five television programs he’d wanted to see, and he’d never gone so long without blowing up an alien on his computer.",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 3,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 0,
+              "chapter_title": "Chapter 3: The Letters from No One"
+            },
+            "score": 0.09852018998405485,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p46:c002",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 46,
+            "text": "She held up a letter so they could read the green ink address:\n\nMr. H. Potter\n\nRoom 17\n\nRailview Hotel\n\nCokeworth Harry made a grab for the letter but Uncle Vernon knocked his hand out of the way. The woman stared.\n\n“I’ll take them,” said Uncle Vernon, standing up quickly and following her from the dining room.",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 3,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 2,
+              "chapter_title": "Chapter 3: The Letters from No One"
+            },
+            "score": 0.07638245298397284,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[hp-book1-ch1-4:para:p46:c001 | data/harrypotter.pdf | page 46]\nUncle Vernon stopped at last outside a gloomy-looking hotel on the outskirts of a big city. Dudley and Harry shared a room with twin beds and damp, musty sheets. Dudley snored but Harry stayed awake, sitting on the windowsill, staring down at the lights of passing cars and wondering. . . . They ate stale cornflakes and cold tinned tomatoes on toast for breakfast the next day. They had just finished when the owner of the hotel came over to their table.\n\n“’Scuse me, but is one of you Mr. H. Potter? Only I got about an ’undred of these at the front desk.”",
+        "context_ids": [
+          "hp-book1-ch1-4:para:p46:c001"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_ms": 2288.54
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "answerable": true,
+    "question": "What food rations did Uncle Vernon provide at the hut, and what happened when he tried to start a fire?",
+    "status": "answered",
+    "answer": "Uncle Vernon's food rations at the hut consisted of a bag of chips each and four bananas. When he tried to start a fire, the empty chip bags just smoked and shriveled up. [hp-book1-ch1-4:para:p48:c000]",
+    "citations": [
+      "hp-book1-ch1-4:para:p48:c000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Uncle Vernon food rations hut fire",
+        "filter": null,
+        "results": [
+          {
+            "id": "hp-book1-ch1-4:para:p48:c000",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 48,
+            "text": "There were only two rooms.\n\nUncle Vernon’s rations turned out to be a bag of chips each and four bananas. He tried to start a fire but the empty chip bags just smoked and shriveled up.\n\n“Could do with some of those letters now, eh?” he said cheerfully.\n\nHe was in a very good mood. Obviously he thought nobody stood a chance of reaching them here in a storm to deliver mail. Harry privately agreed, though the thought didn’t cheer him up at all.",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 3,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 0,
+              "chapter_title": "Chapter 3: The Letters from No One"
+            },
+            "score": 0.16720143630800216,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p47:c003",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 47,
+            "text": "“I’ve already got us some rations,” said Uncle Vernon, “so all aboard!”\n\nIt was freezing in the boat. Icy sea spray and rain crept down their necks and a chilly wind whipped their faces. After what seemed like hours they reached the rock, where Uncle Vernon, slipping and sliding, led the way to the broken-down house.\n\nThe inside was horrible; it smelled strongly of seaweed, the wind whistled through the gaps in the wooden walls, and the fireplace was damp and empty.",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 3,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 3,
+              "chapter_title": "Chapter 3: The Letters from No One"
+            },
+            "score": 0.11658958179213964,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p52:c000",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 52,
+            "text": "He held out an enormous hand and shook Harry’s whole arm.\n\n“What about that tea then, eh?” he said, rubbing his hands together. “I’d not say no ter summat stronger if yeh’ve got it, mind.”\n\nHis eyes fell on the empty grate with the shriveled chip bags in it and he snorted. He bent down over the fireplace; they couldn’t see what he was doing but when he drew back a second later, there was a roaring fire there. It filled the whole damp hut with flickering light and Harry felt the warmth wash over him as though he’d sunk into a hot bath.",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 4,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 0,
+              "chapter_title": "Chapter 4: The Keeper of the Keys"
+            },
+            "score": 0.10351206637180702,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[hp-book1-ch1-4:para:p48:c000 | data/harrypotter.pdf | page 48]\nThere were only two rooms.\n\nUncle Vernon’s rations turned out to be a bag of chips each and four bananas. He tried to start a fire but the empty chip bags just smoked and shriveled up.\n\n“Could do with some of those letters now, eh?” he said cheerfully.\n\nHe was in a very good mood. Obviously he thought nobody stood a chance of reaching them here in a storm to deliver mail. Harry privately agreed, though the thought didn’t cheer him up at all.",
+        "context_ids": [
+          "hp-book1-ch1-4:para:p48:c000"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 3020.9
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "answerable": true,
+    "question": "In Chapter 4, why was Hagrid furious with Vernon Dursley regarding Dumbledore's letter?",
+    "status": "answered",
+    "answer": "Hagrid was furious with Vernon Dursley because he had never told Harry about the contents of the letter Dumbledore left for him, which Hagrid found unacceptable as he had witnessed Dumbledore leaving it for Harry. This angered Hagrid as he believed Harry deserved to know his true identity as a wizard, which Vernon had kept from him for years. [hp-book1-ch1-4:para:p54:c000]",
+    "citations": [
+      "hp-book1-ch1-4:para:p54:c000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Hagrid furious Vernon Dursley Dumbledore's letter Chapter 4",
+        "filter": null,
+        "results": [
+          {
+            "id": "hp-book1-ch1-4:para:p54:c000",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 54,
+            "text": "A braver man than Vernon Dursley would have quailed under the furious look Hagrid now gave him; when Hagrid spoke, his every syllable trembled with rage.\n\n“You never told him? Never told him what was in the letter Dumbledore left fer him? I was there! I saw Dumbledore leave it, Dursley! An’ you’ve kept it from him all these years?”\n\n“Kept what from me?” said Harry eagerly.\n\n“STOP! I FORBID YOU!” yelled Uncle Vernon in panic.\n\nAunt Petunia gave a gasp of horror.\n\n“Ah, go boil yer heads, both of yeh,” said Hagrid. “Harry — yer a wizard.”",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 4,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 0,
+              "chapter_title": "Chapter 4: The Keeper of the Keys"
+            },
+            "score": 0.22899908102206162,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p43:c001",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 43,
+            "text": "When the mail arrived, Uncle Vernon, who seemed to be trying to be nice to Harry, made Dudley go and get it. They heard him banging things with his Smelting stick all the way down the hall. Then he shouted, “There’s another one! ‘Mr. H. Potter, The Smallest Bedroom, 4 Privet Drive —’”",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 3,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 1,
+              "chapter_title": "Chapter 3: The Letters from No One"
+            },
+            "score": 0.1392647457315271,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p22:c002",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 22,
+            "text": "“Hagrid’s bringing him.”\n\n“You think it — wise — to trust Hagrid with something as important as this?”\n\n“I would trust Hagrid with my life,” said Dumbledore.\n\n“I’m not saying his heart isn’t in the right place,” said Professor McGonagall grudgingly, “but you can’t pretend he’s not careless. He does tend to — what was that?”",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 1,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 2,
+              "chapter_title": "Chapter 1: The Boy Who Lived"
+            },
+            "score": 0.12475690612081056,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[hp-book1-ch1-4:para:p54:c000 | data/harrypotter.pdf | page 54]\nA braver man than Vernon Dursley would have quailed under the furious look Hagrid now gave him; when Hagrid spoke, his every syllable trembled with rage.\n\n“You never told him? Never told him what was in the letter Dumbledore left fer him? I was there! I saw Dumbledore leave it, Dursley! An’ you’ve kept it from him all these years?”\n\n“Kept what from me?” said Harry eagerly.\n\n“STOP! I FORBID YOU!” yelled Uncle Vernon in panic.\n\nAunt Petunia gave a gasp of horror.\n\n“Ah, go boil yer heads, both of yeh,” said Hagrid. “Harry — yer a wizard.”",
+        "context_ids": [
+          "hp-book1-ch1-4:para:p54:c000"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 3278.71
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "answerable": true,
+    "question": "Why did Harry doubt Hagrid's claim that he was a wizard?",
+    "status": "answered",
+    "answer": "Harry doubted Hagrid's claim that he was a wizard because he questioned why, if he was really a wizard, he hadn't been able to use magic to avoid being locked in his cupboard or to defend himself against Dudley, who bullied him. He expressed his doubt by saying, 'I think you must have made a mistake. I don’t think I can be a wizard.' [hp-book1-ch1-4:para:p60:c000]",
+    "citations": [
+      "hp-book1-ch1-4:para:p60:c000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Harry doubt Hagrid wizard claim",
+        "filter": null,
+        "results": [
+          {
+            "id": "hp-book1-ch1-4:para:p60:c000",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 60,
+            "text": "if he was really a wizard, why hadn’t they been turned into warty toads every time they’d tried to lock him in his cupboard? If he’d once defeated the greatest sorcerer in the world, how come Dudley had always been able to kick him around like a football?\n\n“Hagrid,” he said quietly, “I think you must have made a mistake. I don’t think I can be a wizard.”\n\nTo his surprise, Hagrid chuckled.\n\n“Not a wizard, eh? Never made things happen when you was scared or angry?”",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 4,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 0,
+              "chapter_title": "Chapter 4: The Keeper of the Keys"
+            },
+            "score": 0.3463720116629338,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p60:c002",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 60,
+            "text": "Harry looked back at Hagrid, smiling, and saw that Hagrid was positively beaming at him.\n\n“See?” said Hagrid. “Harry Potter, not a wizard — you wait, you’ll be right famous at Hogwarts.”\n\nBut Uncle Vernon wasn’t going to give in without a fight.\n\n“Haven’t I told you he’s not going?” he hissed. “He’s going to Stonewall High and he’ll be grateful for it. I’ve read those letters and he needs all sorts of rubbish — spell books and wands and —”",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 4,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 2,
+              "chapter_title": "Chapter 4: The Keeper of the Keys"
+            },
+            "score": 0.25397824435583893,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p56:c000",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 56,
+            "text": "Hagrid grunted.\n\n“I’d like ter see a great Muggle like you stop him,” he said.\n\n“A what?” said Harry, interested.\n\n“A Muggle,” said Hagrid, “it’s what we call nonmagic folk like them. An’ it’s your bad luck you grew up in a family o’ the biggest Muggles I ever laid eyes on.”\n\n“We swore when we took him in we’d put a stop to that rubbish,” said Uncle Vernon, “swore we’d stamp it out of him! Wizard indeed!”\n\n“You knew?” said Harry. “You knew I’m a — a wizard?”",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 4,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 0,
+              "chapter_title": "Chapter 4: The Keeper of the Keys"
+            },
+            "score": 0.24597921538991457,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[hp-book1-ch1-4:para:p60:c000 | data/harrypotter.pdf | page 60]\nif he was really a wizard, why hadn’t they been turned into warty toads every time they’d tried to lock him in his cupboard? If he’d once defeated the greatest sorcerer in the world, how come Dudley had always been able to kick him around like a football?\n\n“Hagrid,” he said quietly, “I think you must have made a mistake. I don’t think I can be a wizard.”\n\nTo his surprise, Hagrid chuckled.\n\n“Not a wizard, eh? Never made things happen when you was scared or angry?”",
+        "context_ids": [
+          "hp-book1-ch1-4:para:p60:c000"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 3376.26
+  },
+  {
+    "query_id": "q23",
+    "split": "test",
+    "answerable": false,
+    "question": "From which platform number does the Hogwarts Express depart?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Hogwarts Express platform number",
+        "filter": null,
+        "results": [
+          {
+            "id": "hp-book1-ch1-4:para:p52:c003",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 52,
+            "text": "“Call me Hagrid,” he said, “everyone does. An’ like I told yeh, I’m Keeper of Keys at Hogwarts — yeh’ll know all about Hogwarts, o’ course.”\n\n“Er — no,” said Harry.\n\nHagrid looked shocked.\n\n“Sorry,” Harry said quickly.\n\n“Sorry?” barked Hagrid, turning to stare at the Dursleys, who shrank back",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 4,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 3,
+              "chapter_title": "Chapter 4: The Keeper of the Keys"
+            },
+            "score": 0.1950509284481208,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p60:c003",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 60,
+            "text": "“If he wants ter go, a great Muggle like you won’t stop him,” growled Hagrid. “Stop Lily an’ James Potter’s son goin’ ter Hogwarts! Yer mad. His name’s been down ever since he was born. He’s off ter the finest school of witchcraft and wizardry in the world. Seven years there and he won’t know himself. He’ll be with youngsters of his own sort, fer a change, an’ he’ll be under the greatest headmaster Hogwarts ever had, Albus Dumbled —”\n\n“I AM NOT PAYING FOR SOME CRACKPOT OLD FOOL TO TEACH",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 4,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 3,
+              "chapter_title": "Chapter 4: The Keeper of the Keys"
+            },
+            "score": 0.13286653429401324,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p43:c004",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 43,
+            "text": "He was going to wait for the postman on the corner of Privet Drive and get the letters for number four first. His heart hammered as he crept across the dark hall toward the front door —\n\n“AAAAARRRGH!”\n\nHarry leapt into the air; he’d trodden on something big and squashy on the",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 3,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 4,
+              "chapter_title": "Chapter 3: The Letters from No One"
+            },
+            "score": 0.11506183440734165,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[hp-book1-ch1-4:para:p52:c003 | data/harrypotter.pdf | page 52]\n“Call me Hagrid,” he said, “everyone does. An’ like I told yeh, I’m Keeper of Keys at Hogwarts — yeh’ll know all about Hogwarts, o’ course.”\n\n“Er — no,” said Harry.\n\nHagrid looked shocked.\n\n“Sorry,” Harry said quickly.\n\n“Sorry?” barked Hagrid, turning to stare at the Dursleys, who shrank back\n\n[hp-book1-ch1-4:para:p43:c004 | data/harrypotter.pdf | page 43]\nHe was going to wait for the postman on the corner of Privet Drive and get the letters for number four first. His heart hammered as he crept across the dark hall toward the front door —\n\n“AAAAARRRGH!”\n\nHarry leapt into the air; he’d trodden on something big and squashy on the",
+        "context_ids": [
+          "hp-book1-ch1-4:para:p52:c003",
+          "hp-book1-ch1-4:para:p43:c004"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Hogwarts Express platform number",
+        "filter": null,
+        "results": [
+          {
+            "id": "hp-book1-ch1-4:para:p52:c003",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 52,
+            "text": "“Call me Hagrid,” he said, “everyone does. An’ like I told yeh, I’m Keeper of Keys at Hogwarts — yeh’ll know all about Hogwarts, o’ course.”\n\n“Er — no,” said Harry.\n\nHagrid looked shocked.\n\n“Sorry,” Harry said quickly.\n\n“Sorry?” barked Hagrid, turning to stare at the Dursleys, who shrank back",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 4,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 3,
+              "chapter_title": "Chapter 4: The Keeper of the Keys"
+            },
+            "score": 0.1950509284481208,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p60:c003",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 60,
+            "text": "“If he wants ter go, a great Muggle like you won’t stop him,” growled Hagrid. “Stop Lily an’ James Potter’s son goin’ ter Hogwarts! Yer mad. His name’s been down ever since he was born. He’s off ter the finest school of witchcraft and wizardry in the world. Seven years there and he won’t know himself. He’ll be with youngsters of his own sort, fer a change, an’ he’ll be under the greatest headmaster Hogwarts ever had, Albus Dumbled —”\n\n“I AM NOT PAYING FOR SOME CRACKPOT OLD FOOL TO TEACH",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 4,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 3,
+              "chapter_title": "Chapter 4: The Keeper of the Keys"
+            },
+            "score": 0.13286653429401324,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p43:c004",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 43,
+            "text": "He was going to wait for the postman on the corner of Privet Drive and get the letters for number four first. His heart hammered as he crept across the dark hall toward the front door —\n\n“AAAAARRRGH!”\n\nHarry leapt into the air; he’d trodden on something big and squashy on the",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 3,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 4,
+              "chapter_title": "Chapter 3: The Letters from No One"
+            },
+            "score": 0.11506183440734165,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[hp-book1-ch1-4:para:p52:c003 | data/harrypotter.pdf | page 52]\n“Call me Hagrid,” he said, “everyone does. An’ like I told yeh, I’m Keeper of Keys at Hogwarts — yeh’ll know all about Hogwarts, o’ course.”\n\n“Er — no,” said Harry.\n\nHagrid looked shocked.\n\n“Sorry,” Harry said quickly.\n\n“Sorry?” barked Hagrid, turning to stare at the Dursleys, who shrank back\n\n[hp-book1-ch1-4:para:p43:c004 | data/harrypotter.pdf | page 43]\nHe was going to wait for the postman on the corner of Privet Drive and get the letters for number four first. His heart hammered as he crept across the dark hall toward the front door —\n\n“AAAAARRRGH!”\n\nHarry leapt into the air; he’d trodden on something big and squashy on the",
+        "context_ids": [
+          "hp-book1-ch1-4:para:p52:c003",
+          "hp-book1-ch1-4:para:p43:c004"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Hogwarts Express platform number",
+        "filter": null,
+        "results": [
+          {
+            "id": "hp-book1-ch1-4:para:p52:c003",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 52,
+            "text": "“Call me Hagrid,” he said, “everyone does. An’ like I told yeh, I’m Keeper of Keys at Hogwarts — yeh’ll know all about Hogwarts, o’ course.”\n\n“Er — no,” said Harry.\n\nHagrid looked shocked.\n\n“Sorry,” Harry said quickly.\n\n“Sorry?” barked Hagrid, turning to stare at the Dursleys, who shrank back",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 4,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 3,
+              "chapter_title": "Chapter 4: The Keeper of the Keys"
+            },
+            "score": 0.1950509284481208,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p60:c003",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 60,
+            "text": "“If he wants ter go, a great Muggle like you won’t stop him,” growled Hagrid. “Stop Lily an’ James Potter’s son goin’ ter Hogwarts! Yer mad. His name’s been down ever since he was born. He’s off ter the finest school of witchcraft and wizardry in the world. Seven years there and he won’t know himself. He’ll be with youngsters of his own sort, fer a change, an’ he’ll be under the greatest headmaster Hogwarts ever had, Albus Dumbled —”\n\n“I AM NOT PAYING FOR SOME CRACKPOT OLD FOOL TO TEACH",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 4,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 3,
+              "chapter_title": "Chapter 4: The Keeper of the Keys"
+            },
+            "score": 0.13286653429401324,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p43:c004",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 43,
+            "text": "He was going to wait for the postman on the corner of Privet Drive and get the letters for number four first. His heart hammered as he crept across the dark hall toward the front door —\n\n“AAAAARRRGH!”\n\nHarry leapt into the air; he’d trodden on something big and squashy on the",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 3,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 4,
+              "chapter_title": "Chapter 3: The Letters from No One"
+            },
+            "score": 0.11506183440734165,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[hp-book1-ch1-4:para:p52:c003 | data/harrypotter.pdf | page 52]\n“Call me Hagrid,” he said, “everyone does. An’ like I told yeh, I’m Keeper of Keys at Hogwarts — yeh’ll know all about Hogwarts, o’ course.”\n\n“Er — no,” said Harry.\n\nHagrid looked shocked.\n\n“Sorry,” Harry said quickly.\n\n“Sorry?” barked Hagrid, turning to stare at the Dursleys, who shrank back\n\n[hp-book1-ch1-4:para:p43:c004 | data/harrypotter.pdf | page 43]\nHe was going to wait for the postman on the corner of Privet Drive and get the letters for number four first. His heart hammered as he crept across the dark hall toward the front door —\n\n“AAAAARRRGH!”\n\nHarry leapt into the air; he’d trodden on something big and squashy on the",
+        "context_ids": [
+          "hp-book1-ch1-4:para:p52:c003",
+          "hp-book1-ch1-4:para:p43:c004"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 4868.81
+  },
+  {
+    "query_id": "q24",
+    "split": "test",
+    "answerable": false,
+    "question": "What vault number at Gringotts Wizarding Bank holds the small grubby package Hagrid retrieves for Dumbledore?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Gringotts Wizarding Bank vault number Hagrid retrieves package Dumbledore",
+        "filter": null,
+        "results": [
+          {
+            "id": "hp-book1-ch1-4:para:p22:c002",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 22,
+            "text": "“Hagrid’s bringing him.”\n\n“You think it — wise — to trust Hagrid with something as important as this?”\n\n“I would trust Hagrid with my life,” said Dumbledore.\n\n“I’m not saying his heart isn’t in the right place,” said Professor McGonagall grudgingly, “but you can’t pretend he’s not careless. He does tend to — what was that?”",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 1,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 2,
+              "chapter_title": "Chapter 1: The Boy Who Lived"
+            },
+            "score": 0.10182554943394112,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p24:c001",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 24,
+            "text": "For a full minute the three of them stood and looked at the little bundle; Hagrid’s shoulders shook, Professor McGonagall blinked furiously, and the twinkling light that usually shone from Dumbledore’s eyes seemed to have gone out.\n\n“Well,” said Dumbledore finally, “that’s that. We’ve no business staying here. We may as well go and join the celebrations.”\n\n“Yeah,” said Hagrid in a very muffled voice, “I’d best get this bike away. G’night, Professor McGonagall — Professor Dumbledore, sir.”",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 1,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 1,
+              "chapter_title": "Chapter 1: The Boy Who Lived"
+            },
+            "score": 0.09839198379468117,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p59:c000",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 59,
+            "text": "about you, probably nothing a good beating wouldn’t have cured — and as for all this about your parents, well, they were weirdos, no denying it, and the world’s better off without them in my opinion — asked for all they got, getting mixed up with these wizarding types — just what I expected, always knew they’d come to a sticky end —”\n\nBut at that moment, Hagrid leapt from the sofa and drew a battered pink umbrella from inside his coat. Pointing this at Uncle Vernon like a sword, he said, “I’m warning you, Dursley — I’m warning you — one more word . . .”",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 4,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 0,
+              "chapter_title": "Chapter 4: The Keeper of the Keys"
+            },
+            "score": 0.09567529206821797,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[hp-book1-ch1-4:para:p22:c002 | data/harrypotter.pdf | page 22]\n“Hagrid’s bringing him.”\n\n“You think it — wise — to trust Hagrid with something as important as this?”\n\n“I would trust Hagrid with my life,” said Dumbledore.\n\n“I’m not saying his heart isn’t in the right place,” said Professor McGonagall grudgingly, “but you can’t pretend he’s not careless. He does tend to — what was that?”",
+        "context_ids": [
+          "hp-book1-ch1-4:para:p22:c002"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Gringotts Wizarding Bank vault number Hagrid retrieves package Dumbledore",
+        "filter": null,
+        "results": [
+          {
+            "id": "hp-book1-ch1-4:para:p22:c002",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 22,
+            "text": "“Hagrid’s bringing him.”\n\n“You think it — wise — to trust Hagrid with something as important as this?”\n\n“I would trust Hagrid with my life,” said Dumbledore.\n\n“I’m not saying his heart isn’t in the right place,” said Professor McGonagall grudgingly, “but you can’t pretend he’s not careless. He does tend to — what was that?”",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 1,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 2,
+              "chapter_title": "Chapter 1: The Boy Who Lived"
+            },
+            "score": 0.10182554943394112,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p24:c001",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 24,
+            "text": "For a full minute the three of them stood and looked at the little bundle; Hagrid’s shoulders shook, Professor McGonagall blinked furiously, and the twinkling light that usually shone from Dumbledore’s eyes seemed to have gone out.\n\n“Well,” said Dumbledore finally, “that’s that. We’ve no business staying here. We may as well go and join the celebrations.”\n\n“Yeah,” said Hagrid in a very muffled voice, “I’d best get this bike away. G’night, Professor McGonagall — Professor Dumbledore, sir.”",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 1,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 1,
+              "chapter_title": "Chapter 1: The Boy Who Lived"
+            },
+            "score": 0.09839198379468117,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p59:c000",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 59,
+            "text": "about you, probably nothing a good beating wouldn’t have cured — and as for all this about your parents, well, they were weirdos, no denying it, and the world’s better off without them in my opinion — asked for all they got, getting mixed up with these wizarding types — just what I expected, always knew they’d come to a sticky end —”\n\nBut at that moment, Hagrid leapt from the sofa and drew a battered pink umbrella from inside his coat. Pointing this at Uncle Vernon like a sword, he said, “I’m warning you, Dursley — I’m warning you — one more word . . .”",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 4,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 0,
+              "chapter_title": "Chapter 4: The Keeper of the Keys"
+            },
+            "score": 0.09567529206821797,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[hp-book1-ch1-4:para:p22:c002 | data/harrypotter.pdf | page 22]\n“Hagrid’s bringing him.”\n\n“You think it — wise — to trust Hagrid with something as important as this?”\n\n“I would trust Hagrid with my life,” said Dumbledore.\n\n“I’m not saying his heart isn’t in the right place,” said Professor McGonagall grudgingly, “but you can’t pretend he’s not careless. He does tend to — what was that?”",
+        "context_ids": [
+          "hp-book1-ch1-4:para:p22:c002"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Gringotts Wizarding Bank vault number Hagrid retrieves package Dumbledore",
+        "filter": null,
+        "results": [
+          {
+            "id": "hp-book1-ch1-4:para:p22:c002",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 22,
+            "text": "“Hagrid’s bringing him.”\n\n“You think it — wise — to trust Hagrid with something as important as this?”\n\n“I would trust Hagrid with my life,” said Dumbledore.\n\n“I’m not saying his heart isn’t in the right place,” said Professor McGonagall grudgingly, “but you can’t pretend he’s not careless. He does tend to — what was that?”",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 1,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 2,
+              "chapter_title": "Chapter 1: The Boy Who Lived"
+            },
+            "score": 0.10182554943394112,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p24:c001",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 24,
+            "text": "For a full minute the three of them stood and looked at the little bundle; Hagrid’s shoulders shook, Professor McGonagall blinked furiously, and the twinkling light that usually shone from Dumbledore’s eyes seemed to have gone out.\n\n“Well,” said Dumbledore finally, “that’s that. We’ve no business staying here. We may as well go and join the celebrations.”\n\n“Yeah,” said Hagrid in a very muffled voice, “I’d best get this bike away. G’night, Professor McGonagall — Professor Dumbledore, sir.”",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 1,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 1,
+              "chapter_title": "Chapter 1: The Boy Who Lived"
+            },
+            "score": 0.09839198379468117,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "hp-book1-ch1-4:para:p59:c000",
+            "source_id": "hp-book1-ch1-4",
+            "source": "data/harrypotter.pdf",
+            "page": 59,
+            "text": "about you, probably nothing a good beating wouldn’t have cured — and as for all this about your parents, well, they were weirdos, no denying it, and the world’s better off without them in my opinion — asked for all they got, getting mixed up with these wizarding types — just what I expected, always knew they’d come to a sticky end —”\n\nBut at that moment, Hagrid leapt from the sofa and drew a battered pink umbrella from inside his coat. Pointing this at Uncle Vernon like a sword, he said, “I’m warning you, Dursley — I’m warning you — one more word . . .”",
+            "metadata": {
+              "book": "Book 1: Sorcerer's Stone",
+              "chapter": 4,
+              "chunking": "by_paragraph",
+              "language": "en",
+              "chunk_index": 0,
+              "chapter_title": "Chapter 4: The Keeper of the Keys"
+            },
+            "score": 0.09567529206821797,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[hp-book1-ch1-4:para:p22:c002 | data/harrypotter.pdf | page 22]\n“Hagrid’s bringing him.”\n\n“You think it — wise — to trust Hagrid with something as important as this?”\n\n“I would trust Hagrid with my life,” said Dumbledore.\n\n“I’m not saying his heart isn’t in the right place,” said Professor McGonagall grudgingly, “but you can’t pretend he’s not careless. He does tend to — what was that?”",
+        "context_ids": [
+          "hp-book1-ch1-4:para:p22:c002"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 4902.6
+  }
+]

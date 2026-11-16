@@ -1,0 +1,346 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What is the Dursleys' street address?",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 12,
+        "evidence": "Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much."
+      }
+    ],
+    "expected_answer": "Number four, Privet Drive.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Which floor was Mr. Dursley's office located on at Grunnings?",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 14,
+        "evidence": "Mr. Dursley always sat with his back to the window in his office on the ninth floor."
+      }
+    ],
+    "expected_answer": "The ninth floor.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Under what condition would Mr. Dursley have found it harder to focus on drills that morning?",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 14,
+        "evidence": "Mr. Dursley always sat with his back to the window in his office on the ninth floor. If he hadn’t, he might have found it harder to concentrate on drills that morning."
+      }
+    ],
+    "expected_answer": "If he had not sat with his back to the window.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Why were bird-watchers surprised by the owls' behavior on the evening news?",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 16,
+        "evidence": "Although owls normally hunt at night and are hardly ever seen in daylight, there have been hundreds of sightings of these birds flying in every direction since sunrise."
+      }
+    ],
+    "expected_answer": "Owls normally hunt at night and are rarely seen in daylight, yet hundreds were spotted flying in every direction since sunrise.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Why did Professor McGonagall say she was sitting so stiffly?",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 19,
+        "evidence": "“You’d be stiff if you’d been sitting on a brick wall all day,” said Professor McGonagall."
+      }
+    ],
+    "expected_answer": "Because she had been sitting on a brick wall all day.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Why did Dumbledore believe Harry's aunt and uncle were the right people to raise him?",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 22,
+        "evidence": "“His aunt and uncle will be able to explain everything to him when he’s older. I’ve written them a letter.”"
+      }
+    ],
+    "expected_answer": "They would be able to explain everything to him when he is older, and Dumbledore had written them a letter.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "In Chapter 1, where did Dumbledore place the letter before leaving Harry at Privet Drive?",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 24,
+        "evidence": "He laid Harry gently on the doorstep, took a letter out of his cloak, tucked it inside Harry’s blankets, and then came back to the other two."
+      }
+    ],
+    "expected_answer": "He tucked the letter inside Harry's blankets after laying him on the doorstep.",
+    "filter": {
+      "chapter": 1
+    },
+    "answerable": true
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "In Chapter 2, what was the only thing in the Dursleys' living room that showed nearly ten years had passed?",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 26,
+        "evidence": "Only the photographs on the mantelpiece really showed how much time had passed."
+      }
+    ],
+    "expected_answer": "The photographs on the mantelpiece.",
+    "filter": {
+      "chapter": 2
+    },
+    "answerable": true
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "What was the first rule for living peacefully with the Dursleys, and how did Aunt Petunia explain Harry's scar?",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 28,
+        "evidence": "“In the car crash when your parents died,” she had said. “And don’t ask questions.”\n\nDon’t ask questions — that was the first rule for a quiet life with the Dursleys."
+      }
+    ],
+    "expected_answer": "Don't ask questions; Aunt Petunia told him he got it in the car crash when his parents died.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Why did Harry hope the Dursleys might leave him behind at the house?",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 30,
+        "evidence": "“You could just leave me here,” Harry put in hopefully (he’d be able to watch what he wanted on television for a change and maybe even have a go on Dudley’s computer)."
+      }
+    ],
+    "expected_answer": "He would be able to watch what he wanted on television and possibly use Dudley's computer.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Besides Harry and people at work, what other subjects did Uncle Vernon like to complain about?",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 32,
+        "evidence": "He liked to complain about things: people at work, Harry, the council, Harry, the bank, and Harry were just a few of his favorite subjects. This morning, it was motorcycles."
+      }
+    ],
+    "expected_answer": "The council, the bank, and motorcycles.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Why did Harry have no friends at school?",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 36,
+        "evidence": "Everybody knew that Dudley’s gang hated that odd Harry Potter in his baggy old clothes and broken glasses, and nobody liked to disagree with Dudley’s gang."
+      }
+    ],
+    "expected_answer": "Everyone knew Dudley's gang hated Harry, and nobody liked to disagree with Dudley's gang.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "In Chapter 3, what did Dudley do to Mrs. Figg the first time he rode his racing bike?",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 37,
+        "evidence": "first time out on his racing bike, knocked down old Mrs. Figg as she crossed Privet Drive on her crutches."
+      }
+    ],
+    "expected_answer": "He knocked her down as she crossed Privet Drive on her crutches.",
+    "filter": {
+      "chapter": 3
+    },
+    "answerable": true
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "How did Uncle Vernon try to make sure Harry could not intercept the letters at the front door?",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 44,
+        "evidence": "Uncle Vernon had been lying at the foot of the front door in a sleeping bag, clearly making sure that Harry didn’t do exactly what he’d been trying to do."
+      }
+    ],
+    "expected_answer": "He lay at the foot of the front door in a sleeping bag.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "According to Hagrid, why did You-Know-Who probably never try to recruit Harry's parents to his side?",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 58,
+        "evidence": "probably knew they were too close ter Dumbledore ter want anythin’ ter do with the Dark Side."
+      }
+    ],
+    "expected_answer": "Because they were too close to Dumbledore to want anything to do with the Dark Side.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "What kind of business was Mr. Dursley the director of?",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 12,
+        "evidence": "Mr. Dursley was the director of a firm called Grunnings, which made drills."
+      }
+    ],
+    "expected_answer": "A firm called Grunnings, which made drills.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "What three reasons made Dudley howl at nightfall during the drive to the gloomy hotel?",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 46,
+        "evidence": "He was hungry, he’d missed five television programs he’d wanted to see, and he’d never gone so long without blowing up an alien on his computer."
+      }
+    ],
+    "expected_answer": "He was hungry, missed five television programs, and had never gone so long without blowing up an alien on his computer.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "What food rations did Uncle Vernon provide at the hut, and what happened when he tried to start a fire?",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 48,
+        "evidence": "Uncle Vernon’s rations turned out to be a bag of chips each and four bananas. He tried to start a fire but the empty chip bags just smoked and shriveled up."
+      }
+    ],
+    "expected_answer": "A bag of chips each and four bananas; the empty chip bags just smoked and shriveled up.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "In Chapter 4, why was Hagrid furious with Vernon Dursley regarding Dumbledore's letter?",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 54,
+        "evidence": "“You never told him? Never told him what was in the letter Dumbledore left fer him? I was there! I saw Dumbledore leave it, Dursley! An’ you’ve kept it from him all these years?”"
+      }
+    ],
+    "expected_answer": "Because Vernon never told Harry what was in the letter Dumbledore left for him and kept it from him all those years.",
+    "filter": {
+      "chapter": 4
+    },
+    "answerable": true
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Why did Harry doubt Hagrid's claim that he was a wizard?",
+    "gold": [
+      {
+        "source_id": "hp-book1-ch1-4",
+        "page": 60,
+        "evidence": "if he was really a wizard, why hadn’t they been turned into warty toads every time they’d tried to lock him in his cupboard? If he’d once defeated the greatest sorcerer in the world, how come Dudley had always been able to kick him around like a football?"
+      }
+    ],
+    "expected_answer": "Because the Dursleys had not turned into warty toads when locking him in his cupboard, and Dudley had always been able to kick him around.",
+    "filter": null,
+    "answerable": true
+  },
+  {
+    "id": "q21",
+    "split": "dev",
+    "answerable": false,
+    "question": "What core material and wood is the wand of Harry Potter made of according to Mr. Ollivander?",
+    "gold": [],
+    "expected_answer": "Not mentioned in Chapters 1-4.",
+    "notes": "Verified 0 occurrences of ollivander/holly/phoenix in 197 chunks."
+  },
+  {
+    "id": "q22",
+    "split": "dev",
+    "answerable": false,
+    "question": "Which Hogwarts house does the Sorting Hat place Harry Potter into?",
+    "gold": [],
+    "expected_answer": "Not mentioned in Chapters 1-4.",
+    "notes": "Verified 0 occurrences of sorting hat/gryffindor/slytherin in 197 chunks."
+  },
+  {
+    "id": "q23",
+    "split": "test",
+    "answerable": false,
+    "question": "From which platform number does the Hogwarts Express depart?",
+    "gold": [],
+    "expected_answer": "Not mentioned in Chapters 1-4.",
+    "notes": "Verified 0 occurrences of platform in 197 chunks."
+  },
+  {
+    "id": "q24",
+    "split": "test",
+    "answerable": false,
+    "question": "What vault number at Gringotts Wizarding Bank holds the small grubby package Hagrid retrieves for Dumbledore?",
+    "gold": [],
+    "expected_answer": "Not mentioned in Chapters 1-4.",
+    "notes": "Verified 0 occurrences of gringotts/vault/713 in 197 chunks."
+  }
+]

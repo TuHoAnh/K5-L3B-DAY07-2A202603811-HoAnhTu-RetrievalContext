@@ -1,0 +1,17 @@
+{
+  "split": "dev",
+  "config": "dense_filter_k5_b1600",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "llm_calls": 41,
+  "prompt_tokens": 18940,
+  "completion_tokens": 1626,
+  "total_tokens": 20566,
+  "cost_usd": 0.003817,
+  "total_elapsed_sec": 69.43,
+  "counts": {
+    "answered": 13,
+    "abstain": 4,
+    "error": 0
+  }
+}

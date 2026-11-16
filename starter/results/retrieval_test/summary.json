@@ -1,0 +1,32 @@
+{
+  "split": "test",
+  "embedding_api_requests": 1,
+  "embedding_tokens": 90,
+  "embedding_cost_usd": 1.8000000000000001e-06,
+  "summaries": [
+    {
+      "strategy": "tfidf_baseline",
+      "n": 5,
+      "top_k": 3,
+      "budget_chars": 800,
+      "use_filter": false,
+      "hit1": 3,
+      "hit3": 4,
+      "context_hit": 3,
+      "avg_context_chars": 573.6,
+      "median_ms": 0.797
+    },
+    {
+      "strategy": "dense_filter_k5_b1600",
+      "n": 5,
+      "top_k": 5,
+      "budget_chars": 1600,
+      "use_filter": true,
+      "hit1": 5,
+      "hit3": 5,
+      "context_hit": 5,
+      "avg_context_chars": 1531.8,
+      "median_ms": 25.023
+    }
+  ]
+}

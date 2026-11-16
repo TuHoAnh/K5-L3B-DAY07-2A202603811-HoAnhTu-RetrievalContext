@@ -1,0 +1,17 @@
+{
+  "split": "test",
+  "config": "tfidf_baseline",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "llm_calls": 20,
+  "prompt_tokens": 6783,
+  "completion_tokens": 673,
+  "total_tokens": 7456,
+  "cost_usd": 0.001421,
+  "total_elapsed_sec": 26.45,
+  "counts": {
+    "answered": 3,
+    "abstain": 4,
+    "error": 0
+  }
+}

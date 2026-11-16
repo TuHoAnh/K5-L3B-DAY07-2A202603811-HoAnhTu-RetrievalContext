@@ -1,0 +1,10 @@
+{
+  "table": "chunks_openai",
+  "strategy": "C_openai_1536",
+  "model": "text-embedding-3-small",
+  "dimensions": 1536,
+  "chunk_count": 197,
+  "total_tokens": 20879,
+  "cost_usd": 0.000418,
+  "elapsed_sec": 5.631
+}
